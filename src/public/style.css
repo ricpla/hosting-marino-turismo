@@ -1625,6 +1625,15 @@ video {
     overflow-x: hidden;
   }
 
+  .texto-galeria {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .primeraSeccion::after {
+    display: none;
+  }
+
   .text {
     padding-left: 10px;
     padding-right: 10px;
@@ -1671,7 +1680,7 @@ video {
   }
 
   #mapa {
-    width: 450px;
+    width: 410px;
   }
 
   .grid-mapa {}
@@ -1679,52 +1688,51 @@ video {
   .mostrador-mapa {}
 
   .card-map {
-    margin-left: 2%;
     margin-right: 300px;
   }
 
   #titulo-lavela {
-    top: 280px !important;
+    top: 240px !important;
   }
 
   .texto-card {
-    top: 350px !important;
+    top: 310px !important;
     font-size: larger !important;
   }
 
   #titulo-caracola {
-    top: 300px !important;
-  }
-
-  #texto-caracola {
-    top: 350px !important;
-  }
-
-  #titulo-pequeno {
-    top: 220px !important;
-  }
-
-  #texto-arriba {
-    top: 280px !important;
-  }
-
-  #titulo-concorde {
-    top: 200px !important;
-  }
-
-  #texto-concorde {
     top: 260px !important;
   }
 
-  #titulo-laguna {
+  #texto-caracola {
+    top: 310px !important;
+  }
+
+  #titulo-pequeno {
     top: 180px !important;
+  }
+
+  #texto-arriba {
+    top: 240px !important;
+  }
+
+  #titulo-concorde {
+    top: 160px !important;
+  }
+
+  #texto-concorde {
+    top: 220px !important;
+  }
+
+  #titulo-laguna {
+    top: 140px !important;
   }
 
   .mapa {}
 
   .apuntador-1 {
     top: 0px;
-    left: 350px;
+    left: 310px;
   }
 
   .apuntador-1:hover {
@@ -1732,8 +1740,8 @@ video {
   }
 
   .apuntador-2 {
-    top: 100px;
-    left: 360px;
+    top: 80px;
+    left: 330px;
   }
 
   .apuntador-2:hover {
@@ -1741,8 +1749,8 @@ video {
   }
 
   .apuntador-3 {
-    top: 120px;
-    left: 140px;
+    top: 100px;
+    left: 110px;
   }
 
   .apuntador-3:hover {
@@ -1750,8 +1758,8 @@ video {
   }
 
   .apuntador-4 {
-    top: 80px;
-    left: 290px;
+    top: 60px;
+    left: 260px;
   }
 
   .apuntador-4:hover {
@@ -1759,8 +1767,8 @@ video {
   }
 
   .apuntador-5 {
-    top: 120px;
-    left: 320px;
+    top: 100px;
+    left: 290px;
   }
 
   .apuntador-5:hover {
@@ -1768,8 +1776,8 @@ video {
   }
 
   .apuntador-6 {
-    top: 105px;
-    left: 250px;
+    top: 85px;
+    left: 220px;
   }
 
   .apuntador-6:hover {
@@ -1777,8 +1785,8 @@ video {
   }
 
   .apuntador-7 {
-    top: 350px;
-    left: 30px;
+    top: 330px;
+    left: 20px;
   }
 
   .apuntador-7:hover {
@@ -1793,7 +1801,7 @@ video {
   .pelicano-agua {
     width: 130px;
     top: 0;
-    left: 300px;
+    left: 250px;
   }
 
   .primeraSeccion::after {
