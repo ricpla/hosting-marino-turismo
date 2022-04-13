@@ -1338,7 +1338,7 @@ video {
 }
 
 .wave2 {
-  width: 4000px;
+  width: 6000px;
   height: 15%;
   position: absolute;
   bottom: 99%;
@@ -1433,7 +1433,7 @@ video {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
-  z-index: 1;
+  z-index: 5;
 }
 
 .franja-amarillo {
