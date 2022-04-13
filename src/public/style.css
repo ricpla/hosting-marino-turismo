@@ -71,6 +71,18 @@
   color: white !important;
 }
 
+#texto-azul {
+  color: var(--azul) !important;
+}
+
+#texto-amarillo {
+  color: var(--amarillo) !important;
+}
+
+#texto-verde {
+  color: var(--verde) !important;
+}
+
 .lupa {
   width: 20px;
   transition: 0.3s;
@@ -406,6 +418,8 @@ video {
 .segundaSeccion {
   background-color: var(--blanco);
   text-align: center;
+  height: max-content;
+  position: relative;
 }
 
 .logo-galeria {
@@ -422,7 +436,100 @@ video {
   color: var(--azul);
 }
 
-.grid {
+
+.new-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100%;
+}
+
+.items-img {
+  position: relative;
+}
+
+.cover-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1a4189;
+  mix-blend-mode: multiply;
+  transition: 0.5s;
+}
+
+.cover-blue:hover {
+  background: transparent;
+}
+
+.cover-yellow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffb701;
+  mix-blend-mode: multiply;
+  transition: 0.5s;
+}
+
+.cover-yellow:hover {
+  background: transparent;
+}
+
+.cover-green {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #009440;
+  mix-blend-mode: multiply;
+  transition: 0.5s;
+}
+
+.cover-green:hover {
+  background: transparent;
+}
+
+.text-img {
+  font-family: "montserrat", sans-serif;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  color: #000000;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.text-card-green {
+  font-family: "montserrat", sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 20px;
+  color: #ffffff;
+  font-size: 2.95rem;
+  font-weight: bold !important;
+  padding: auto;
+}
+
+#row2 {
+  margin-top: 40px;
+}
+
+#row4 {
+  margin-top: 40px;
+}
+
+.galeria-imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 100%;
@@ -590,7 +697,7 @@ video {
   top: 50px;
   color: white;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 300%;
   padding-right: 10px;
   padding-left: 20px;
   font-family: 'Montserrat', sans-serif;
@@ -876,7 +983,7 @@ video {
 
 .img10:hover:before {
   background-color: transparent;
-}
+} */
 
 .boton-ver-mas {
   margin-bottom: 80px;
@@ -1894,6 +2001,27 @@ video {
     padding: 0;
   }
 
+  #row2 {
+    margin-top: 0;
+  }
+  
+  #row4 {
+    margin-top: 0;
+  }
+
+  .text-card-green {
+    top: 20%;
+    left: 5px;
+    font-size: 0.9rem;
+
+  }
+
+  .text-img {
+    top: 60%;
+    font-size: 10px;
+    padding: 0px;
+  }
+
 }
 
 /* ESTILOS SECCION GALERIA */
@@ -2508,35 +2636,40 @@ a[data-fancybox] img {
     grid-column-start: span 3;
     grid-row-start: span 3;
   }
-  
+
   .dondeir__item:nth-child(1) {
     grid-column-start: span 3;
     grid-row-start: span 3;
   }
-  
+
   .dondeir__item:nth-child(2) {
     grid-column-start: span 3;
     grid-row-start: span 2;
   }
-  
+
   .dondeir__item:nth-child(3) {
     grid-column-start: span 3;
     grid-row-start: span 3;
   }
-  
+
   .dondeir__item:nth-child(4) {
     grid-column-start: span 3;
     grid-row-start: span 3;
   }
-  
+
   .dondeir__item:nth-child(5) {
     grid-column-start: span 3;
     grid-row-start: span 3;
   }
-  
+
   .dondeir__item:nth-child(6) {
     grid-column-start: span 3;
     grid-row-start: span 2;
   }
 
 }
+
+
+/* ----------------------------- */
+
+
