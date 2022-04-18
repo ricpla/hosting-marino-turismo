@@ -2088,7 +2088,7 @@ video {
 #cover-init-alcalde {
   width: 100%;
   height: 600px !important;
-  background-position: top;
+  background-position: 50% 30%;
   background-repeat: no-repeat;
   background-size: cover;
   backface-visibility: hidden;
