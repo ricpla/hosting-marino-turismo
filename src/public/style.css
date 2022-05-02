@@ -1061,10 +1061,12 @@ video {
 
 .mapa {
   position: relative;
+  z-index: 1000;
 }
 
 #mapa {
   width: 650px;
+  z-index: 10000;
 }
 
 #texto-apuntador {
@@ -1163,10 +1165,12 @@ video {
   width: 35px;
   text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.603);
   transition: 0.5s;
+  z-index: 10000;
 }
 
 .apuntador-7:hover {
   top: 530px;
+  z-index: 10000;
 }
 
 .card-map {
@@ -1181,6 +1185,7 @@ video {
   box-shadow: 6px 6px 29px -15px rgba(0, 0, 0, 0.75);
   border-top: 1px solid white;
   border-left: 1px solid white;
+
 }
 
 .hover-card {
@@ -1433,7 +1438,7 @@ video {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
-  z-index: 5;
+  z-index: 2; 
 }
 
 .franja-amarillo {
@@ -1913,6 +1918,10 @@ video {
 
   .primeraSeccion::after {
     width: 150px;
+  }
+
+  .franja-verde::before {
+    height: 100%;
   }
 
   .grid {
